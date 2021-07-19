@@ -1,0 +1,9 @@
+{
+  "name": "typescript-component-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/joshuagardiner/typescript-component-library.git",
+  "author": "joshuagardiner",
+  "license": "MIT",
+  "private": "true"
+}
