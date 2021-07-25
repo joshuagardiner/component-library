@@ -1,2 +1,2 @@
 export { Card } from "./components/Card";
-export { Title } from "./components/Typography";
+export { Text, Title } from "./components/Typography";
