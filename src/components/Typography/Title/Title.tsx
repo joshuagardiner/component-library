@@ -4,7 +4,7 @@ import { ITitleProps } from "./ITitleProps";
 /**
  * The Title component
  *
- * @returns the Title.
+ * @returns a Title.
  */
 export const Title: React.FC<ITitleProps> = ({
   color,
