@@ -1,0 +1,32 @@
+name: Build
+on:
+  pull_request:
+    branches:
+      - main
+      - develop
+  push:
+    branches:
+      - main
+      - develop
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Set-up Node
+        uses: actions/setup-node@v2
+
+      - name: Check-out Code
+        uses: actions/checkout@v2
+
+      - name: Prepare
+        run: yarn install
+
+      - name: Build
+        run: yarn build
+
+      - name: Test
+        run: yarn test
