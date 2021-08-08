@@ -16,17 +16,19 @@ export const Text: React.FC<ITextProps> = ({
   text,
 }: ITextProps) => {
   return (
-    <p
-      style={{
-        color: color,
-        fontSize: fontSize,
-        lineHeight: lineHeight,
-        marginLeft: marginLeft || "auto",
-        marginRight: marginRight || "auto",
-        maxWidth: maxWidth,
-      }}
-    >
-      {text}
-    </p>
+    <div id="tcl-text" data-testid="text">
+      <p
+        style={{
+          color: color,
+          fontSize: fontSize,
+          lineHeight: lineHeight,
+          marginLeft: marginLeft || "auto",
+          marginRight: marginRight || "auto",
+          maxWidth: maxWidth,
+        }}
+      >
+        {text}
+      </p>
+    </div>
   );
 };
