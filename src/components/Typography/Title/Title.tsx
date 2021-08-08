@@ -14,15 +14,17 @@ export const Title: React.FC<ITitleProps> = ({
   textTransform,
 }: ITitleProps) => {
   return (
-    <h1
-      style={{
-        color: color,
-        fontSize: fontSize,
-        marginTop: marginTop,
-        textTransform: textTransform,
-      }}
-    >
-      {text}
-    </h1>
+    <div id="tcl-title" data-testid="title">
+      <h1
+        style={{
+          color: color,
+          fontSize: fontSize,
+          marginTop: marginTop,
+          textTransform: textTransform,
+        }}
+      >
+        {text}
+      </h1>
+    </div>
   );
 };
