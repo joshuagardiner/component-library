@@ -16,7 +16,7 @@ export const Text: React.FC<ITextProps> = ({
   text,
 }: ITextProps) => {
   return (
-    <div id="tcl-text" data-testid="text">
+    <div className="tcl-text" data-testid="text">
       <p
         style={{
           color: color,

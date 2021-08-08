@@ -15,6 +15,8 @@ export const Avatar: React.FC<IAvatarProps> = ({
 }: IAvatarProps) => {
   return (
     <div
+      id="tcl-avatar"
+      data-testid="avatar"
       style={{
         display: "inherit",
         height: height,

@@ -7,5 +7,6 @@ describe("Text", () => {
     const wrapper = render(<Text text={"Test"} />);
 
     expect(wrapper.getByTestId("text").textContent).toEqual("Test");
+    expect(wrapper.getByText("Test").nodeName).toEqual("P");
   });
 });

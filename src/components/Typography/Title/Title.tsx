@@ -14,7 +14,7 @@ export const Title: React.FC<ITitleProps> = ({
   textTransform,
 }: ITitleProps) => {
   return (
-    <div id="tcl-title" data-testid="title">
+    <div className="tcl-title" data-testid="title">
       <h1
         style={{
           color: color,
