@@ -16,7 +16,11 @@ export const Card: React.FC<ICardProps> = ({
     <div
       className={"tcl-card"}
       data-testid={"card"}
-      style={{ height: height, marginTop: marginTop, maxWidth: width }}
+      style={{
+        height: height || "auto",
+        marginTop: marginTop || "auto",
+        maxWidth: width || "100%",
+      }}
     >
       <div className={"tcl-card__content"} data-testid={"card-content"}>
         {children}
