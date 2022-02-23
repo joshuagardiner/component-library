@@ -3,26 +3,29 @@
  */
 export interface ICardProps {
   /**
-   * ClassName of the Card
+   * ClassName of the Card.
    */
   className?: string;
 
   /**
-   * Height of the Card
+   * Test ID of the Card.
+   */
+  "data-testid"?: string;
+
+  /**
+   * Height of the Card.
    *
    * @default "auto"
    */
   height?: string;
 
   /**
-   * Margin at the top of the Card
-   *
-   * @default "auto"
+   * ID of the Card.
    */
-  marginTop?: string;
+  id?: string;
 
   /**
-   * Width of the Card
+   * Width of the Card.
    *
    * @default "100%"
    */
