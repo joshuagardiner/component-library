@@ -1,41 +1,36 @@
 import { IconType } from "react-icons/lib/cjs/iconBase";
 
 /**
- * Properties of the IconButton component
+ * Properties of the IconButton component.
  */
 export interface IIconButtonProps {
   /**
-   * Color of the IconButton
+   * ClassName of the IconButton.
    */
-  color: string;
+  className?: string;
 
   /**
-   * The testid of the IconButton component
+   * Test ID of the IconButton.
    */
   "data-testid"?: string;
 
   /**
-   * External link for the IconButton
+   * External link for the IconButton.
    */
   external: boolean;
 
   /**
-   * Height of the IconButton
-   */
-  height: string;
-
-  /**
-   * Hyperlink of the IconButton
+   * Hyperlink of the IconButton.
    */
   href: string;
 
   /**
-   * The Icon of the IconButton
+   * The Icon of the IconButton.
    */
   icon: IconType;
 
   /**
-   * Width of the IconButton
+   * ID of the IconButton.
    */
-  width: string;
+  id?: string;
 }

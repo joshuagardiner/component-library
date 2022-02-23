@@ -14,7 +14,7 @@ type Props = React.PropsWithChildren<ICardProps>;
 export const CollectionColumn: FC<Props> = (props: Props): JSX.Element => {
   const { children, className } = props;
 
-  const classes: string = classNames("eui-card-collection__column", className);
+  const classes: string = classNames("tcl-card-collection__column", className);
 
   return (
     <CollectionColumnView {...props} className={classes}>
