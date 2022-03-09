@@ -1,4 +1,8 @@
+# Build
 /build
+
+# Dependencies
 /node_modules
 
-.npmrc
+# Husky
+.husky/_
