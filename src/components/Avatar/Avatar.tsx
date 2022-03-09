@@ -7,12 +7,7 @@ import { IAvatarProps } from "./IAvatarProps";
  *
  * @returns the Avatar component JSX
  */
-export const Avatar: React.FC<IAvatarProps> = ({
-  altText,
-  height,
-  path,
-  width,
-}: IAvatarProps) => {
+export const Avatar: React.FC<IAvatarProps> = ({ altText, height, path, width }: IAvatarProps) => {
   return (
     <div
       id="tcl-avatar"
@@ -23,7 +18,7 @@ export const Avatar: React.FC<IAvatarProps> = ({
         marginLeft: "auto",
         marginRight: "auto",
         position: "relative",
-        width: width,
+        width: width
       }}
     >
       <Image

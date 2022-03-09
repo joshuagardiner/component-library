@@ -10,14 +10,7 @@ import { IIconButtonProps } from "../IIconButtonProps";
 export const IconButtonView: React.FC<IIconButtonProps> = (
   props: IIconButtonProps
 ): JSX.Element => {
-  const {
-    className,
-    "data-testid": dataTestId,
-    external,
-    href,
-    icon,
-    id,
-  } = props;
+  const { className, "data-testid": dataTestId, external, href, icon, id } = props;
   const Icon = icon;
 
   return (
