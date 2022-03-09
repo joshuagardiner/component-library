@@ -13,7 +13,7 @@ export const Text: React.FC<ITextProps> = ({
   marginLeft,
   marginRight,
   maxWidth,
-  text,
+  text
 }: ITextProps) => {
   return (
     <div className="tcl-text" data-testid="text">
@@ -24,7 +24,7 @@ export const Text: React.FC<ITextProps> = ({
           lineHeight: lineHeight,
           marginLeft: marginLeft || "auto",
           marginRight: marginRight || "auto",
-          maxWidth: maxWidth,
+          maxWidth: maxWidth
         }}
       >
         {text}

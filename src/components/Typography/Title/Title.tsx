@@ -11,7 +11,7 @@ export const Title: React.FC<ITitleProps> = ({
   fontSize,
   marginTop,
   text,
-  textTransform,
+  textTransform
 }: ITitleProps) => {
   return (
     <div className="tcl-title" data-testid="title">
@@ -20,7 +20,7 @@ export const Title: React.FC<ITitleProps> = ({
           color: color,
           fontSize: fontSize,
           marginTop: marginTop,
-          textTransform: textTransform,
+          textTransform: textTransform
         }}
       >
         {text}

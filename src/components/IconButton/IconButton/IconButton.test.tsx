@@ -50,7 +50,7 @@ describe("IconButton", () => {
   it("open the href when clicking the IconButton.", () => {
     Object.defineProperty(window, "location", {
       writable: true,
-      value: { assign: jest.fn(), origin: "https://localhost:3000" },
+      value: { assign: jest.fn(), origin: "https://localhost:3000" }
     });
     jest.spyOn(global.location, "assign").mockImplementation();
 
