@@ -1,6 +1,6 @@
 {
   "name": "@joshuagardiner/typescript-component-library",
-  "version": "1.1.28",
+  "version": "1.1.32-alpha.1",
   "main": "build/dist/src/index.js",
   "files": [
     "build/dist/src/*"
@@ -43,6 +43,7 @@
     "deploy": "npm publish",
     "fix:prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx,scss,json,md,mdx}\"",
     "prettier": "prettier --check \"src/**/*.{js,jsx,ts,tsx,scss,json,md,mdx}\"",
+    "pre-release": "npm version pre-release",
     "test": "jest"
   }
 }
