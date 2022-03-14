@@ -38,12 +38,19 @@
     "typescript": "^4.6.2"
   },
   "scripts": {
-    "build": "npm run build:tsc",
+    "build": "yarn build:tsc",
     "build:tsc": "tsc",
-    "deploy": "npm publish",
+    "deploy": "yarn publish",
     "fix:prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx,scss,json,md,mdx}\"",
     "prettier": "prettier --check \"src/**/*.{js,jsx,ts,tsx,scss,json,md,mdx}\"",
-    "pre-release": "npm version pre-release",
-    "test": "jest"
+    "test": "jest",
+    "version": "yarn version --major",
+    "version:major": "yarn version --major",
+    "version:minor": "yarn version --minor",
+    "version:patch": "yarn version --patch",
+    "version:pre-major": "yarn version --premajor",
+    "version:pre-minor": "yarn version --preminor",
+    "version:pre-patch": "yarn version --prepatch",
+    "version:pre-release": "yarn version --prerelease"
   }
 }
