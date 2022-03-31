@@ -19,3 +19,17 @@ Yarn:
 ```
 yarn add @joshuagardiner/typescript-component-library
 ```
+
+## Usage
+
+```tsx
+import { LoadingSpinner } from "@joshuagardiner/typescript-component-library";
+
+const MyApp = () => {
+  return (
+    <>
+      <LoadingSpinner text={"Loading.."} />
+    </>
+  );
+};
+```
