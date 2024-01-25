@@ -1,4 +1,4 @@
-import { IconType } from "react-icons/lib/cjs/iconBase";
+import { IconType } from "react-icons/lib/iconBase";
 
 /**
  * Properties of the IconButton component.
